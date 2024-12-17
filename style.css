@@ -1,0 +1,428 @@
+.home-section{
+      
+    background-color: black;
+    padding: 50px;
+ 
+}
+*{
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 1400px;
+    height: 90px;
+    border-radius: 20px;
+    margin-left: 15px;
+    background-image: linear-gradient(to bottom right, yellow, rgb(235, 153, 10));
+   
+    
+}
+.nav{
+    background-color: black;
+    color: aliceblue;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav:hover{
+    box-shadow: 0px 0px 20px black;
+
+}
+.home-body{
+    display: flex;
+}
+.photo{
+    margin-top: 90px;
+    margin-left: 200px;
+    
+}
+.photo img{
+    height: 500px;
+    width:300px;
+}
+.photo img{
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px yellow;
+}
+.download{
+    margin-top: 200px;
+    margin-left: 180px;
+    font-size: 25px;
+    color: aliceblue;
+}
+.text{
+    margin-bottom: 50px;
+}
+.dcv{
+    font-size: 70px;
+    margin-left: 108px;
+    
+}
+
+.dcv i:hover{
+    box-shadow: 0px 0px 20px yellow;
+   
+}
+.text2{
+    margin-bottom: 20px;
+    
+}
+
+
+i{
+    border-radius: 50%;
+}
+#nam1{
+    color: yellow;
+}
+.navbar2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, yellow, rgb(235, 153, 10));
+    width: 1400px;
+    height: 90px;
+    border-radius: 20px;
+    margin-left: 25px;
+    font-size: 50px;
+    text-shadow: 0px 0px 10px black;   
+}
+.body-section2{
+    padding: 50px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.about-para{
+    margin-left: 40px;  
+    font-size: 20px;
+    color: white;
+}
+.back-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    
+
+}
+.back-button a{
+    font-size: 50px;
+    color: black;
+    
+}
+.back-button:hover{
+    box-shadow: 0px 0px 20px yellow;
+}
+
+.sec2{
+        background-color: black;
+        padding: 30px;
+}
+
+#back-buttondiv{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.back-button2{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+.back-button2 a{
+    font-size: 50px;
+    color: black;
+    
+}
+.back-button2:hover{
+    box-shadow: 0px 0px 20px yellow;
+}
+.about-img{
+    border-radius: 20px;
+}
+.about-img img{
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px yellow;
+}
+.highlight{
+    font-size: 30px;
+    color: yellow;
+}
+/* part for styling contact page */
+.contact-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, yellow, rgb(235, 153, 10));
+    width: 1400px;
+    height: 90px;
+    border-radius: 20px;
+    margin-left: 25px;
+    font-size: 50px;
+    text-shadow: 0px 0px 10px black; 
+}
+.contact-img img{
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px yellow;
+}
+.contact-body{
+    padding-left: 100px;
+    padding-top: 50px; 
+    display: flex; 
+    align-items: center; 
+}
+.contact-text{
+    margin-left: 300px;
+    font-size: 30px;
+}
+.contact-text .detail{
+    color: white;
+}
+.contact-text .my-detail{
+    color: yellow;
+}
+.contact-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 170px;
+   
+
+}
+.conlogo{
+    font-size: 50px;
+    padding:10px;
+    border: 2px solid;
+    margin: 40px;
+    border-radius: 20%;
+    background-color: yellow;
+
+}
+.conlogo a{
+    color: black;
+}
+.conlogo:hover{
+    font-size: 60px;
+    padding:10px;
+    border: 2px solid;
+    border-radius: 20%;
+    background-image: linear-gradient(to bottom right, yellow, rgb(235, 153, 10));
+    box-shadow: 0px 0px 20px yellow;
+}
+.backbutton4{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+.contact-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backbutton4 i{
+    color: black;
+    font-size: 50px;
+}
+.backbutton4:hover{
+
+    box-shadow: 0px 0px 20px yellow;
+    
+}
+#contact-section{
+    padding: 40px;
+    background-color: black;
+}
+/* part for styling the skill section */
+#skill-section{
+    
+    padding: 40px;
+    background-color: black;
+}
+.skill-img img{
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px yellow;
+    margin-top: 50px;
+}
+.body-skill{
+    padding-left: 100px;
+    padding-top: 50px; 
+    display: flex; 
+    align-items: center; 
+}
+
+.blocks{
+    padding: 60px;
+    font-size: 50px;   
+}
+
+.skill-level{
+    display: flex;
+    align-items: self-end;
+    margin-top: 50px; 
+}
+
+.html-level{
+    height: 300px;
+    width: 70px;
+    background-image: linear-gradient(to bottom right, blue, lightblue);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: 0px 0px 20px yellow;
+}
+.css-level{
+    height: 263px;
+    width: 70px;
+    background-image: linear-gradient(to bottom right, blue, lightblue);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: 0px 0px 20px yellow;
+}
+.boostrap-level{
+    height: 170px;
+    width: 70px;
+    background-image: linear-gradient(to bottom right, blue, lightblue);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: 0px 0px 20px yellow;
+}
+.js-level{
+    height: 88px;
+    width: 70px;
+    background-image: linear-gradient(to bottom right, blue, lightblue);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: 0px 0px 20px yellow;
+
+}
+.skill-logo{
+    display: flex;
+    align-items: self-end;
+}
+.html-logo{
+    background-image: linear-gradient(to bottom right, yellow, rgb(235, 153, 10));
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px yellow;
+    margin-left: 200px;
+    font-size: 40px;
+}
+.css-logo{
+    background-image: linear-gradient(to bottom right, yellow, rgb(235, 153, 10));
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px yellow;
+    margin-left: 40px;
+    font-size: 40px;
+
+}
+.boostrap-logo{
+    background-image: linear-gradient(to bottom right, yellow, rgb(235, 153, 10));
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px yellow;
+    margin-left: 40px;
+    font-size: 40px;
+
+}
+.js-logo{
+    background-image: linear-gradient(to bottom right, yellow, rgb(235, 153, 10));
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px yellow;
+    margin-left: 40px;
+    font-size: 40px;
+
+}
+.back-button5{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+.back-button5 i{
+    color: black;
+    font-size: 50px;
+}
+.back-button5:hover{
+
+    box-shadow: 0px 0px 20px yellow;
+    
+}
+.skill-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
